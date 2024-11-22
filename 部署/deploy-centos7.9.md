@@ -79,9 +79,8 @@ yum list docker-ce --showduplicates | sort -r
 
 ### 安装docker指定版本
 ```
-sudo yum -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo yum -y install docker-ce-20.10.0 docker-ce-cli-20.10.0 containerd.io
-
+#sudo yum -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 ### 启动docker
