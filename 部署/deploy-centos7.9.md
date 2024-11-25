@@ -7,6 +7,7 @@ sudo yum install -y yum-utils
 sudo wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ```
 ### 配置Centos-Base.rep
+vi /etc/yum.repos.d/CentOS-Base.repo
 ```
 # CentOS-Base.repo
 #
