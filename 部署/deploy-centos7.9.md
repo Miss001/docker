@@ -75,7 +75,7 @@ gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
 更新yum源
 ```
 yum clean all
-yum makecahe
+yum makecache
 ```
 
 ### 查看现有版本包
